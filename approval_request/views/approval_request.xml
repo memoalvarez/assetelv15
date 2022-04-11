@@ -11,7 +11,7 @@
         <button name="marcar_entregado" confirm="Se marcara como entregado, ¿Estas seguro?" string="Entregado" type="object" class="oe_highlight" attrs="{'invisible': [('entregado', '=', True)]}" groups="access_rights_assetel.assetel_finanzas_inventario"/>
       </xpath>
 
-      <xpath expr="//div[@class='oe_button_box']" position="after">
+      <xpath expr="//div[@class='o_not_full oe_button_box']" position="after">
         <field name="entregado" invisible="1"/>
         <widget name="web_ribbon" text="Entregado" attrs="{'invisible': [('entregado', '=', False)]}"/>
       </xpath>
