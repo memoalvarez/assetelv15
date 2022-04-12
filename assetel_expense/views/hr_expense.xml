@@ -7,9 +7,11 @@
     <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
     <field name="arch" type="xml">
 
-      <xpath expr="//field[@name='tax_ids']" position="after">
-        <field name="expense_type"/>
-        <field name="supplier_id" domain="[('type', '=', 'invoice'), ('is_company', '=', True)]"/>
+      <xpath expr="//form[1]/sheet[1]/group[1]" position="after">
+        <group>
+          <field name="expense_type"/>
+          <field name="supplier_id" domain="[('type', '=', 'invoice'), ('is_company', '=', True)]"/>
+        </group>
       </xpath>
 
     </field>
