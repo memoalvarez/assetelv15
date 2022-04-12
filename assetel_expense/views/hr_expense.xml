@@ -7,9 +7,9 @@
     <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
     <field name="arch" type="xml">
 
-      <xpath expr="//form[1]/sheet[1]/group[1]" position="attributes">
+      <!--<xpath expr="//form[1]/sheet[1]/group[1]" position="attributes">
         <attribute name="invisible">1</attribute>
-      </xpath>
+      </xpath -->
 
       <xpath expr="//field[@name='payment_mode']" position="attributes">
         <attribute name="invisible">1</attribute>
