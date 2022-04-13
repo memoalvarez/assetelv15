@@ -8,6 +8,13 @@ class InstalledServices(models.Model):
     _description = 'Número de servicio'
 
     service_information_ids = fields.One2many('service.information', 'installed_service_id', 'Informacion del servicio')
+    
+    installation_type = fields.Selection([
+        ('formal', 'Formal'),
+        ('cortesia', 'Cortesía'),
+        ('temporal', 'Temporal'),
+        ('infraestructura', 'Infraestructura')
+        ], string='Tipo de instalación')
 
     name = fields.Char('Numero de servicio', copy=False, index=True, default=lambda self: _('New'))
     stage = fields.Selection([
