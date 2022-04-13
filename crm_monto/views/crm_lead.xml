@@ -21,7 +21,7 @@
     <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
     <field name="arch" type="xml">
         
-        <field name='planned_revenue' position="after">
+        <field name='recurring_revenue' position="after">
             <field name="montoRetencion"/>
         </field>
         
