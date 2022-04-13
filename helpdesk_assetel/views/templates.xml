@@ -1,7 +1,7 @@
 <odoo>
     <data>
         <template id="helpdesk_assetel.ticket_submit" name="Helpdesk: Submit a Ticket (Inherited)" inherit_id="website_helpdesk_form.ticket_submit_form">
-            <xpath expr="//form/div[2]" position="after">
+            <xpath expr="//form/div[1]" position="after">
                 <div class="form-group row form-field o_website_form_required_custom">
                     <div class="col-lg-3 col-md-4 text-right">
                         <label class="col-form-label" for="installed_service_id">Numero de Servicio</label>
