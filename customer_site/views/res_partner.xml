@@ -31,7 +31,7 @@
   <record id="res_partner_inherit_customer_site_2" model="ir.ui.view">
     <field name="name">res.partner.customer.site.2</field>
     <field name="model">res.partner</field>
-    <field name="inherit_id" ref="purchase.view_partner_property_form"/>
+    <field name="inherit_id" ref="account.view_partner_property_form"/>
     <field name="arch" type="xml">
 
       <xpath expr="//field[@name='property_supplier_payment_term_id']" position="after">
