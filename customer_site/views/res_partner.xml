@@ -34,7 +34,7 @@
     <field name="inherit_id" ref="purchase.view_partner_property_form"/>
     <field name="arch" type="xml">
 
-      <xpath expr="//field[@name='property_purchase_currency_id']" position="after">
+      <xpath expr="//field[@name='property_supplier_payment_term_id']" position="after">
         <field name="credit_limit"/>
       </xpath>
 
