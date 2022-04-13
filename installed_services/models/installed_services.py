@@ -15,6 +15,8 @@ class InstalledServices(models.Model):
         ('temporal', 'Temporal'),
         ('infraestructura', 'Infraestructura')
         ], string='Tipo de instalación')
+    
+    demo_service = fields.Boolean(string='Servicio demo', default=False)
 
     name = fields.Char('Numero de servicio', copy=False, index=True, default=lambda self: _('New'))
     stage = fields.Selection([
