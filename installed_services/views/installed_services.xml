@@ -29,12 +29,10 @@
     <field name="model">installed.services</field>
     <field name="arch" type="xml">
       <map res_partner="site" default_order="create_date" routing="true">
-        <marker-popup>
           <field name="name" string="No de servicio"/>
           <field name="partner_id" string="Cliente"/>
           <field name="site" string="Sitio"/>
           <field name="product_id" string="Servicio"/>
-        </marker-popup>
       </map>
     </field> 
   </record>
