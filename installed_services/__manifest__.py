@@ -19,7 +19,7 @@
     'version': '1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'stock', 'customer_site'],
+    'depends': ['base', 'stock', 'customer_site', 'mrp'],
 
     # always loaded
     'data': [
