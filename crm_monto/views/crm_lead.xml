@@ -7,7 +7,7 @@
     <field name="inherit_id" ref="crm.crm_lead_view_form"/>
     <field name="arch" type="xml">
 
-        <xpath expr="//field[@name='planned_revenue']" position="after">
+        <xpath expr="//field[@name='recurring_revenue']" position="after">
             <span class="oe_grey p-2">Retencion</span>
             <field name="montoRetencion" class="oe_inline" widget="monetary"/>
         </xpath>
