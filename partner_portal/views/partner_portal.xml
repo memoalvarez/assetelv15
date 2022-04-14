@@ -2,7 +2,7 @@
 <odoo>
 
     <template id="my_partner_portal" name="Partner portal menu" inherit_id="portal.frontend_layout">
-        <xpath expr="//a[@id='o_logout']" position="before">
+        <xpath expr="//a[@id='top_menu']" position="before">
             <a href="/my/partner" role="menuitem" class="dropdown-item" t-if="user_id._is_partner()">Portal de Partner</a>
         </xpath>
     </template>
