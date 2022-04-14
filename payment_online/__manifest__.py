@@ -19,7 +19,7 @@
     'version': '1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'contacts', 'account_accountant'],
+    'depends': ['base', 'contacts', 'account_accountant', 'account_payment'],
 
     # always loaded
     'data': [
