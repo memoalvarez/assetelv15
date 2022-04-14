@@ -39,9 +39,9 @@
                 <group>
                   <field name="type" groups="base.group_no_one" invisible="1"/>
                   <field name="name"/>
-                  <label for="address_name" name="address_name">
+                  <span class="o_form_label o_td_label" name="address_name">
                     <b>Domicilio</b>
-                  </label>
+                  </span>
                   <div class="o_address_format">
                     <field name="street_name" placeholder="Nombre de la calle" class="o_address_street"/>
                     <div class="oe_edit_only o_row">
