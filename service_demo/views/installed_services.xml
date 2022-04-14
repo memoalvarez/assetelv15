@@ -7,10 +7,6 @@
     <field name="inherit_id" ref="installed_services.installed_services_form"/>
     <field name="arch" type="xml">
 
-        <xpath expr="//field[@name='service_type']" position="before">
-            <field name="demo_service" invisible="1"/>
-        </xpath>
-
         <xpath expr="//div[@class='oe_button_box']" position="after">
             <widget name="web_ribbon" text="Demo" bg_color="bg-warning" attrs="{'invisible': [('demo_service', '=', False)]}"/>
             <widget name="web_ribbon" text="Formal" bg_color="bg-success" attrs="{'invisible': [('installation_type', '!=', 'formal')]}"/>
@@ -29,10 +25,6 @@
                 <group>
                 </group>
             </group>
-        </xpath>
-
-        <xpath expr="//field[@name='service_type']" position="after">
-            <field name="installation_type" attrs="{'invisible': [('demo_service', '!=', False)]}"/>
         </xpath>
 
     </field>
