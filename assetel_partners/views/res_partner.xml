@@ -39,7 +39,7 @@
                 <group>
                   <field name="type" groups="base.group_no_one" invisible="1"/>
                   <field name="name"/>
-                  <label for="" name="address_name">
+                  <label for="address_name" name="address_name">
                     <b>Domicilio</b>
                   </label>
                   <div class="o_address_format">
