@@ -18,7 +18,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website_crm_partner_assign', 'contacts', 'sign'], 
+    'depends': ['base', 'website_crm_partner_assign', 'contacts', 'sign', 'l10n_mx'], 
 
     # always loaded
     'data': [
