@@ -5,7 +5,7 @@ from odoo import models, fields, api
 class HrLeave(models.Model):
     _inherit = 'hr.leave'
 
-    backup = fields.Many2many('hr.employee', string="Backup")
+    backup = fields.Many2many('hr.employee', 'backup_employees', 'employee_id', 'backup_id', string="Backup")
 
 
     def action_validate(self):
