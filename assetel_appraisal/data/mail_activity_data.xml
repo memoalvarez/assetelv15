@@ -5,7 +5,7 @@
             <field name="name">Aprobación</field>
             <field name="icon">fa-check-circle</field>
             <field name="sequence">4</field>
-            <field name="res_model_id" ref="assetel_appraisal.model_appraisal_period"/>
+            <field name="res_model" ref="assetel_appraisal.model_appraisal_period"/>
         </record>
     </data>
 </odoo>
